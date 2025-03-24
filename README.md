@@ -1,46 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Notes App Using TypeScript and React
 
-## Available Scripts
+It is a minimalistic Notes app that uses Node,React and TypeScript.
 
-In the project directory, you can run:
+The database is stored in tembo.io
 
-### `npm start`
+New Notes can be added, existing nodes can be edited, and also deleted.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*Add Note*
 
-### `npm test`
+*Editing Note*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Deleting Note*
+## Tech Stack 
 
-### `npm run build`
+- **PostgreSQL**
+- **ReactJS**
+- **NodeJS**
+- **JavaScript**
+- **HTML**
+- **CSS**
+- **TypeScript**
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](https://github.com/user-attachments/assets/8d203c96-bca4-4773-b0d6-c28999864d0c)
+![App Screenshot](https://github.com/user-attachments/assets/de0862ff-f895-4890-bc9b-e965723700ab)
+![App Screenshot](https://github.com/user-attachments/assets/3c9b90a4-3204-4710-846c-036a6a624148)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Locally
 
-### `npm run eject`
+Clone the project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  git clone https://github.com/MJenius/PESwiggy.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  cd my-project
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+    Run the server folder using- npm start
+    Run the ui folder using- npm start
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ - [Tutorial From FreeCodeCamp](https://www.youtube.com/watch?v=2MoSzSlAuNk&t=2433s)
