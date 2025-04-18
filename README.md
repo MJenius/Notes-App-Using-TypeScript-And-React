@@ -35,7 +35,7 @@ New Notes can be added, existing nodes can be edited, and also deleted.
 Clone the project
 
 ```bash
-  git clone https://github.com/MJenius/PESwiggy.git
+  git clone https://github.com/MJenius/Notes-App-Using-TypeScript-And-React
 ```
 
 Go to the project directory
